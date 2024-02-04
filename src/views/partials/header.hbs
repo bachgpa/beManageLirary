@@ -1,0 +1,87 @@
+<div class="header_main_layout">
+  <a href="/" class="header_logo">
+    {{! <img src="img/logoB.jpg" alt="logo" /> }}
+  </a>
+  <div class="header_content hiding">
+    <div class="header_content">
+      <div class="header_search box">
+        <form name="search">
+          <input
+            type="text"
+            class="input"
+            name="txt"
+            onmouseout="this.value = ''; this.blur();"
+          />
+        </form>
+        <i class="fas fa-search"></i>
+      </div>
+      <label
+        class="label_checkbox"
+        for="toggle_menu_checkbox"
+      ></label>
+      <input type="checkbox" id="toggle_menu_checkbox" />
+      <div class="page_titles_container">
+        <ul class="page_titles">
+          <li class="page_name gradient_border">
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-house"></i>
+              Main page
+
+            </a>
+          </li>
+          <li class="page_menu gradient_border active">
+            <label
+              class="label_sub_category"
+              for="toggle_sub_category"
+            ></label>
+            <input
+              type="checkbox"
+              id="toggle_sub_category"
+            />
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-angle-right"></i>
+              Category
+            </a>
+            <ul class="dropdown_menu">
+              <li>
+                <a href="#" class="dropdown_item">
+                  <i class="fa-regular fa-circle-play"></i>
+                  Your Videos
+                </a>
+              </li>
+              <li><a href="#" class="dropdown_item">
+                  <i class="fa-solid fa-book-open"></i>
+                  Your Manga
+                </a>
+              </li>
+              <li><a href="#" class="dropdown_item">
+                  <i class="fa-solid fa-plus"></i>
+                  Add Category
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="get_in gradient_border">
+            <a href="#" class="Login">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="toggle_content">
+        {{! <input type="checkbox" id="toggle_menu_checkbox"/> }}
+        <div>
+          <i
+            class="toggle_menu show_menu fa-solid fa-bars"
+          ></i>
+        </div>
+        <div>
+          <i
+            class="toggle_menu hide_menu fa-solid fa-angle-right"
+          ></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
