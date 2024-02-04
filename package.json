@@ -1,0 +1,22 @@
+{
+  "name": "manageapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bachgpa/manageapp.git"
+  },
+  "keywords": [
+    "manageapp"
+  ],
+  "author": "bach nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bachgpa/manageapp/issues"
+  },
+  "homepage": "https://github.com/bachgpa/manageapp#readme"
+}
