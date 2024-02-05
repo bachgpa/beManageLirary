@@ -327,14 +327,16 @@ body {
   }
 
   // Home Body
-  .recently_access {
+  .scroll {
     margin-top: 18px;
     font-size: 1.5rem;
+    width: 100%;
     > p {
       margin: 4px 0 8px 0;
+      font-weight: 500;
     }
   }
-  .recently_slider {
+  .menu_slider {
     display: flex;
     overflow-x: scroll;
     &::-webkit-scrollbar {
@@ -363,7 +365,7 @@ body {
   }
   .card {
     background-color: transparent;
-    width: 200px;
+    width: 240px;
     border-radius: 0.5rem;
     font-size: 1rem;
     box-sizing: border-box;
@@ -376,7 +378,7 @@ body {
     overflow: hidden;
   }
   .card_img {
-    height: 120px;
+    height: 160px;
     border-radius: 0.5rem;
     overflow: hidden;
     display: block;
@@ -392,6 +394,12 @@ body {
     display: flex;
     display: block;
     position: relative;
+    > a > p {
+      margin: 8px 0;
+    }
+    > p {
+      margin: 8px 0;
+    }
   }
   .card_category i {
     position: absolute;

@@ -258,18 +258,20 @@ body {
   .box:hover i {
     opacity: 0;
     z-index: -1; }
-  .recently_access {
+  .scroll {
     margin-top: 18px;
-    font-size: 1.5rem; }
-    .recently_access > p {
-      margin: 4px 0 8px 0; }
-  .recently_slider {
+    font-size: 1.5rem;
+    width: 100%; }
+    .scroll > p {
+      margin: 4px 0 8px 0;
+      font-weight: 500; }
+  .menu_slider {
     display: flex;
     overflow-x: scroll; }
-    .recently_slider::-webkit-scrollbar-track {
+    .menu_slider::-webkit-scrollbar-track {
       background-color: green;
       color: red; }
-    .recently_slider::-webkit-scrollbar-thumb {
+    .menu_slider::-webkit-scrollbar-thumb {
       background-color: green;
       color: red; }
   .card_border {
@@ -279,7 +281,7 @@ body {
     margin: 0 8px 8px 0; }
   .card {
     background-color: transparent;
-    width: 200px;
+    width: 240px;
     border-radius: 0.5rem;
     font-size: 1rem;
     box-sizing: border-box;
@@ -287,7 +289,7 @@ body {
     flex: 0 0 auto;
     overflow: hidden; }
   .card_img {
-    height: 120px;
+    height: 160px;
     border-radius: 0.5rem;
     overflow: hidden;
     display: block;
@@ -301,6 +303,10 @@ body {
     display: flex;
     display: block;
     position: relative; }
+    .card_name > a > p {
+      margin: 8px 0; }
+    .card_name > p {
+      margin: 8px 0; }
   .card_category i {
     position: absolute;
     bottom: 0;
